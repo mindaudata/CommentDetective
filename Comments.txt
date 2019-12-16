@@ -1,0 +1,49 @@
+==========appsettings.json==========
+1. //"Logging": {
+2. //   "LogLevel": {
+3. //     "Default": "Warning"
+4. //   }
+5. // },
+==========Startup.cs==========
+1. /*route*/
+2. /// <summary>
+        /// Does nothing
+        /// </summary>
+
+3. //TODO: Do something later. When other functionality is implemented.
+4. // This method gets called by the runtime. Use this method to add services to the container.
+5. // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+6. // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+7. // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+8. /*routes.MapRoute(
+                    name: "defaultApi",
+                    template: "api/{controller=Home}/{action=Index}/{id?}");*/
+==========HomeController.cs==========
+1. //TestTitle,
+==========Index.cshtml==========
+1. @*to BA front page*@
+==========htmlpage.html==========
+1. <!--that provides information-->
+==========site.css==========
+1. /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+2. /* Sticky footer styles
+-------------------------------------------------- */
+3. /* Sticky footer styles
+-------------------------------------------------- */
+4. /* Margin bottom by footer height */
+5. /* Set the fixed height of the footer here */
+6. /* Vertically center the text there */
+==========site.js==========
+1. // Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+2. // for details on configuring this project to bundle and minify static web assets.
+3. // Write your JavaScript code.
+4. //This is my string");
+5. //alert("this is my comment");
+6. /*alert("this is my comment");
+     
+     
+     
+     
+     
+     */
